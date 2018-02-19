@@ -6,13 +6,18 @@ int main(void)
 	int array[10];
 	int n,i,j,temp;
 	
+	
 	printf("\n enter the array size:");
+	
 	scanf("%d",&n);
+	
+	
 	printf("\n enter the array elements:");
 	for(i=0;i<n;i++)
 	{
 		
 		scanf("%d",&array[i]);
+		
 		
 	}
 	for (i=0;i<n;i++)
@@ -33,7 +38,9 @@ int main(void)
 	{
 		
 		printf("%d ",array[i]);
+		
 	}
+	
 	
 	
 
